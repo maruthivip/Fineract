@@ -1,0 +1,2260 @@
+{
+"FL-001": {
+"cls": {
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {
+"fineract-loan": true
+},
+"path": {
+"LoanProduct.java": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"fqcn": {
+"org.apache.fineract.portfolio.loanaccount.domain.Loan": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/Loan.java"
+]
+},
+"enum": {},
+"table": {}
+},
+"FL-002": {
+"cls": {
+"CommandWrapper": [
+"fineract-core/src/main/java/org/apache/fineract/commands/domain/CommandWrapper.java"
+]
+},
+"module": {
+"fineract-core": true,
+"fineract-provider": true
+},
+"path": {},
+"fqcn": {
+"org.apache.fineract.commands.domain.": null
+},
+"enum": {},
+"table": {}
+},
+"FL-003": {
+"cls": {},
+"module": {},
+"path": {
+"GLAccountType.java": [
+"fineract-core/src/main/java/org/apache/fineract/accounting/glaccount/domain/GLAccountType.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"FL-004": {
+"cls": {
+"JobExecution": null,
+"ScheduledJobDetail": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/domain/ScheduledJobDetail.java"
+],
+"SpringBatchJobConfig": null
+},
+"module": {
+"fineract-provider": true
+},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"FL-005": {
+"cls": {
+"FixedDepositAccount": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/domain/FixedDepositAccount.java"
+],
+"SavingsAccount": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccount.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"FL-006": {
+"cls": {
+"TaxComponent": [
+"fineract-tax/src/main/java/org/apache/fineract/portfolio/tax/domain/TaxComponent.java"
+],
+"TaxGroup": [
+"fineract-tax/src/main/java/org/apache/fineract/portfolio/tax/domain/TaxGroup.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"FL-007": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CU-001": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CU-002": {
+"cls": {
+"FixedDepositAccount": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/domain/FixedDepositAccount.java"
+],
+"RecurringDepositAccount": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/domain/RecurringDepositAccount.java"
+],
+"SavingsAccount": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccount.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CU-003": {
+"cls": {
+"FloatingRate": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRate.java"
+],
+"FloatingRatePeriod": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRatePeriod.java"
+],
+"JobName": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobName.java"
+],
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {
+"fineract-rates": true
+},
+"path": {
+"fineract-rates/.../portfolio/floatingrates/domain/FloatingRate.java": null
+},
+"fqcn": {},
+"enum": {
+"RECALCULATE_INTEREST_FOR_LOAN": true
+},
+"table": {}
+},
+"CU-004": {
+"cls": {
+"LoanRepaymentScheduleInstallment": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanRepaymentScheduleInstallment.java"
+],
+"LoanRescheduleRequest": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/rescheduleloan/domain/LoanRescheduleRequest.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CU-005": {
+"cls": {
+"BusinessEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/BusinessEvent.java",
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/BusinessEvent.java"
+],
+"BusinessEventListener": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/BusinessEventListener.java"
+],
+"BusinessEventNotifier": null,
+"BusinessEventNotifierService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierService.java"
+],
+"BusinessEventNotifierServiceImpl": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierServiceImpl.java"
+],
+"ExternalBusinessEventConfigurationService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/ExternalBusinessEventConfigurationService.java"
+],
+"NoExternalEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/NoExternalEvent.java"
+],
+"RuntimeException": null,
+"TransactionExecutionListener": null
+},
+"module": {
+"fineract-core": true
+},
+"path": {
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java": null,
+"fineract-core/.../infrastructure/event/business/domain/BusinessEvent.java": null
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CU-006": {
+"cls": {
+"BusinessEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/BusinessEvent.java",
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/BusinessEvent.java"
+],
+"FineractHookListener": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/hooks/listener/FineractHookListener.java"
+],
+"HookEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/hooks/event/HookEvent.java"
+],
+"HookEventSource": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/hooks/event/HookEventSource.java"
+],
+"HookListener": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/hooks/listener/HookListener.java"
+],
+"WebHookProcessor": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/hooks/processor/WebHookProcessor.java"
+],
+"WebhookEventListener": null
+},
+"module": {
+"fineract-core": true,
+"fineract-provider": true
+},
+"path": {
+".../infrastructure/hooks/domain/Hook.java": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/hooks/domain/Hook.java"
+],
+".../infrastructure/hooks/processor/WebHookProcessor.java": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/hooks/processor/WebHookProcessor.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CU-007": {
+"cls": {
+"ChargeCalculationType": [
+"fineract-charge/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeCalculationType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeCalculationType.java"
+],
+"ChargeTimeType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeTimeType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeTimeType.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"PERCENT_AMOUNT": true,
+"PERCENT_OF_AMOUNT": true,
+"PERCENT_OF_AMOUNT_AND_INTEREST": true,
+"PERCENT_OF_DISBURSEMENT_AMOUNT": true,
+"PERCENT_OF_INTEREST": true
+},
+"table": {}
+},
+"CU-008": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AC-001": {
+"cls": {
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AC-002": {
+"cls": {
+"FloatingRate": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRate.java"
+],
+"FloatingRatePeriod": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRatePeriod.java"
+],
+"InterestRateChart": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/interestratechart/domain/InterestRateChart.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AC-003": {
+"cls": {
+"AppUser": [
+"fineract-core/src/main/java/org/apache/fineract/useradministration/domain/AppUser.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AC-004": {
+"cls": {
+"AdHoc": [
+"fineract-provider/src/main/java/org/apache/fineract/adhocquery/domain/AdHoc.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"READ_ADHOC": true
+},
+"table": {}
+},
+"AC-005": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AC-006": {
+"cls": {
+"LoanTransaction": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanTransaction.java"
+],
+"TellerTransaction": [
+"fineract-branch/src/main/java/org/apache/fineract/organisation/teller/domain/TellerTransaction.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"MH-001": {
+"cls": {
+"BusinessEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/BusinessEvent.java",
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/BusinessEvent.java"
+],
+"BusinessEventNotifierService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierService.java"
+],
+"JobName": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobName.java"
+],
+"LoanArrearsAgeingUpdateHandler": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/LoanArrearsAgeingUpdateHandler.java"
+],
+"LoanArrearsAging": null,
+"LoanRepaymentScheduleInstallment": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanRepaymentScheduleInstallment.java"
+],
+"LoanRepaymentScheduleTransactionProcessor": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/LoanRepaymentScheduleTransactionProcessor.java"
+],
+"LoanTransaction": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanTransaction.java"
+],
+"LoanTransactionBusinessEvent": [
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/LoanTransactionBusinessEvent.java",
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/transaction/LoanTransactionBusinessEvent.java"
+],
+"UpdateLoanArrearsAgeingConfig": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/UpdateLoanArrearsAgeingConfig.java"
+],
+"UpdateLoanArrearsAgeingTasklet": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/UpdateLoanArrearsAgeingTasklet.java"
+]
+},
+"module": {
+"fineract-loan": true
+},
+"path": {
+"LoanArrearsAgeingUpdateHandler.java": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/LoanArrearsAgeingUpdateHandler.java"
+],
+"UpdateLoanArrearsAgeingConfig.java": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/UpdateLoanArrearsAgeingConfig.java"
+],
+"UpdateLoanArrearsAgeingTasklet.java": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/UpdateLoanArrearsAgeingTasklet.java"
+]
+},
+"fqcn": {},
+"enum": {
+"UPDATE_LOAN_ARREARS_AGEING": true
+},
+"table": {
+"m_loan_arrears_aging": true
+}
+},
+"MH-002": {
+"cls": {
+"AppUser": [
+"fineract-core/src/main/java/org/apache/fineract/useradministration/domain/AppUser.java"
+],
+"ForbiddenException": null,
+"LoansApiResource": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/loanaccount/api/LoansApiResource.java"
+],
+"NoAuthorizationException": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/security/exception/NoAuthorizationException.java"
+],
+"PlatformSecurityContext": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/security/service/PlatformSecurityContext.java"
+],
+"TemplateForbiddenException": [
+"fineract-provider/src/main/java/org/apache/fineract/template/exception/TemplateForbiddenException.java"
+]
+},
+"module": {
+"fineract-core": true
+},
+"path": {
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/security/exception/NoAuthorizationException.java": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/security/exception/NoAuthorizationException.java"
+]
+},
+"fqcn": {},
+"enum": {
+"APPROVE_LOAN": true
+},
+"table": {}
+},
+"MH-003": {
+"cls": {
+"BusinessEventNotifier": null,
+"BusinessEventNotifierService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierService.java"
+],
+"BusinessEventNotifierServiceImpl": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierServiceImpl.java"
+],
+"FineractHookListener": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/hooks/listener/FineractHookListener.java"
+],
+"JobName": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobName.java"
+],
+"LoanStatusChangedBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/LoanStatusChangedBusinessEvent.java"
+],
+"ScheduledJobDetail": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/domain/ScheduledJobDetail.java"
+],
+"TransactionExecutionListener": null,
+"WebHookProcessor": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/hooks/processor/WebHookProcessor.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"APPLY_CHARGE_TO_OVERDUE_LOAN_INSTALLMENT": true
+},
+"table": {}
+},
+"MH-004": {
+"cls": {
+"AppUser": [
+"fineract-core/src/main/java/org/apache/fineract/useradministration/domain/AppUser.java"
+],
+"SearchParameters": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/SearchParameters.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"MH-005": {
+"cls": {
+"AccountTransferStandingInstruction": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/AccountTransferStandingInstruction.java"
+],
+"JobName": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobName.java"
+],
+"LoanRepaymentScheduleInstallment": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanRepaymentScheduleInstallment.java"
+],
+"LoanTransaction": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanTransaction.java"
+],
+"SavingsAccount": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccount.java"
+],
+"SavingsAccountTransaction": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccountTransaction.java"
+],
+"StandingInstruction": null,
+"StandingInstructionAssembler": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/StandingInstructionAssembler.java"
+],
+"StandingInstructionExecutedBusinessEvent": null,
+"StandingInstructionPriority": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/StandingInstructionPriority.java"
+],
+"StandingInstructionRepository": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/StandingInstructionRepository.java"
+],
+"StandingInstructionStatus": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/StandingInstructionStatus.java"
+],
+"StandingInstructionType": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/StandingInstructionType.java"
+]
+},
+"module": {
+"fineract-provider": true
+},
+"path": {
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/AccountTransferStandingInstruction.java": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/AccountTransferStandingInstruction.java"
+]
+},
+"fqcn": {},
+"enum": {
+"EXECUTE_STANDING_INSTRUCTIONS": true
+},
+"table": {}
+},
+"MH-006": {
+"cls": {
+"LoanChargePaidByData": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/data/LoanChargePaidByData.java"
+],
+"TaxComponent": [
+"fineract-tax/src/main/java/org/apache/fineract/portfolio/tax/domain/TaxComponent.java"
+],
+"TaxGroup": [
+"fineract-tax/src/main/java/org/apache/fineract/portfolio/tax/domain/TaxGroup.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PH-001": {
+"cls": {
+"FloatingRate": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRate.java"
+],
+"FloatingRatePeriod": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRatePeriod.java"
+],
+"InterestRateDifferential": null,
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PH-002": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"APPROVE_LOAN": true,
+"CREATE_LOAN": true
+},
+"table": {}
+},
+"PH-003": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"EXECUTE_TRANSACTION": true
+},
+"table": {}
+},
+"PH-004": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PH-005": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-001": {
+"cls": {
+"CreditBureau": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/creditbureau/domain/CreditBureau.java"
+],
+"CreditModel": null
+},
+"module": {},
+"path": {
+"CreditBureau.java": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/creditbureau/domain/CreditBureau.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-002": {
+"cls": {
+"ApplicationCurrency": [
+"fineract-core/src/main/java/org/apache/fineract/organisation/monetary/domain/ApplicationCurrency.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-003": {
+"cls": {
+"ConfigurationDomainServiceJpa": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/configuration/domain/ConfigurationDomainServiceJpa.java"
+],
+"GlobalConfigurationProperty": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/configuration/domain/GlobalConfigurationProperty.java"
+]
+},
+"module": {},
+"path": {
+"application.properties": null,
+"application.yml": null
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-004": {
+"cls": {
+"GlobalConfigurationProperty": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/configuration/domain/GlobalConfigurationProperty.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"APPROVE_LOAN": true,
+"CREATE_CLIENT": true
+},
+"table": {}
+},
+"HR-005": {
+"cls": {},
+"module": {
+"fineract-mobile": false,
+"fineract-ui": false
+},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"MR-001": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"MR-002": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"MR-003": {
+"cls": {
+"PostInterestForSavingConfig": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/jobs/postinterestforsavings/PostInterestForSavingConfig.java"
+],
+"PostInterestForSavingTasklet": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/jobs/postinterestforsavings/PostInterestForSavingTasklet.java"
+],
+"SavingsAccountInterestCalculator": null,
+"SavingsAccountPostInterestService": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/service/SavingsAccountPostInterestService.java"
+],
+"SavingsAccountPostInterestServiceImpl": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/service/SavingsAccountPostInterestServiceImpl.java"
+],
+"SavingsAccountTransaction": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccountTransaction.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"INTEREST_POSTING": true
+},
+"table": {}
+},
+"MR-004": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"PERCENT_AMOUNT_AND_INTEREST": true,
+"PERCENT_OF_AMOUNT": true,
+"PERCENT_OF_AMOUNT_AND_INTEREST": true
+},
+"table": {}
+},
+"CG-001": {
+"cls": {
+"LoanStatus": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanStatus.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/LoanStatus.java"
+],
+"LoanStatusConverter": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanStatusConverter.java"
+],
+"LocalDate": [
+"fineract-validation/src/main/java/org/apache/fineract/validation/constraints/LocalDate.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {
+"org.apache.fineract.portfolio.loanaccount.domain.LoanStatus.ACTIVE": null
+},
+"enum": {},
+"table": {}
+},
+"CG-002": {
+"cls": {
+"CommandWrapperBuilder": [
+"fineract-core/src/main/java/org/apache/fineract/commands/service/CommandWrapperBuilder.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CG-003": {
+"cls": {
+"FindOneByName": null,
+"GlobalConfigurationConstants": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/configuration/api/GlobalConfigurationConstants.java"
+],
+"GlobalConfigurationProperty": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/configuration/domain/GlobalConfigurationProperty.java"
+],
+"OrElseThrow": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"ALLOW_BACKDATED_TRANSACTION_BEFORE_INTEREST_POSTING": true
+},
+"table": {}
+},
+"CG-004": {
+"cls": {
+"BusinessEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/BusinessEvent.java",
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/BusinessEvent.java"
+],
+"BusinessEventListener": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/BusinessEventListener.java"
+],
+"BusinessEventType": null,
+"EventListener": null,
+"GetType": null,
+"LargeWithdrawalBusinessEvent": null,
+"NotifyPostBusinessEvent": null,
+"SavingsAccountTransaction": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccountTransaction.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CG-005": {
+"cls": {
+"AnnualInterestRate": null,
+"PeriodType": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CG-006": {
+"cls": {
+"AbstractPersistableCustom": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/domain/AbstractPersistableCustom.java"
+],
+"DateUtils": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/DateUtils.java"
+],
+"LocalDate": [
+"fineract-validation/src/main/java/org/apache/fineract/validation/constraints/LocalDate.java"
+],
+"StepBuilderFactory": null,
+"WorkingCapitalLoan": [
+"fineract-working-capital-loan/src/main/java/org/apache/fineract/portfolio/workingcapitalloan/domain/WorkingCapitalLoan.java"
+]
+},
+"module": {
+"fineract-cob": true,
+"fineract-loan": true
+},
+"path": {
+"fineract-cob/src/main/java/org/apache/fineract/cob/COBBusinessStep.java": [
+"fineract-cob/src/main/java/org/apache/fineract/cob/COBBusinessStep.java"
+],
+"fineract-loan/src/main/java/org/apache/fineract/cob/loan/LoanCOBBusinessStep.java": [
+"fineract-loan/src/main/java/org/apache/fineract/cob/loan/LoanCOBBusinessStep.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CRD-001": {
+"cls": {
+"BusinessEventNotifier": null,
+"BusinessEventNotifierService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierService.java"
+],
+"CommandWrapper": [
+"fineract-core/src/main/java/org/apache/fineract/commands/domain/CommandWrapper.java"
+],
+"LoanRepaymentScheduleTransactionProcessor": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/LoanRepaymentScheduleTransactionProcessor.java"
+],
+"NoSuchElementException": null
+},
+"module": {
+"fineract-core": true
+},
+"path": {
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java": null
+},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_portfolio_command_source": true
+}
+},
+"CRD-002": {
+"cls": {
+"AppUser": [
+"fineract-core/src/main/java/org/apache/fineract/useradministration/domain/AppUser.java"
+],
+"GlobalConfigurationProperty": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/configuration/domain/GlobalConfigurationProperty.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"APPROVE_LOAN": true
+},
+"table": {
+"m_role_permission": true
+}
+},
+"CRD-003": {
+"cls": {
+"ChargeTimeType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeTimeType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeTimeType.java"
+],
+"JobName": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobName.java"
+],
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"APPLY_CHARGE_TO_OVERDUE_LOAN_INSTALLMENT": true,
+"OVERDUE_INSTALLMENT": true
+},
+"table": {
+"m_charge": true,
+"m_loan_charge": true
+}
+},
+"HR-006": {
+"cls": {
+"JournalEntry": [
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/accounting/JournalEntry.java",
+"fineract-accounting/src/main/java/org/apache/fineract/accounting/journalentry/domain/JournalEntry.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-007": {
+"cls": {
+"PaymentDetail": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/paymentdetail/domain/PaymentDetail.java"
+],
+"PaymentType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/paymenttype/domain/PaymentType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/paymenttype/PaymentType.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-008": {
+"cls": {
+"DataSourcePerTenantServiceFactory": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/database/DataSourcePerTenantServiceFactory.java"
+],
+"FineractPlatformTenant": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/domain/FineractPlatformTenant.java"
+],
+"FineractPlatformTenantConnection": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/domain/FineractPlatformTenantConnection.java"
+],
+"JdbcTenantDetailsService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/tenant/JdbcTenantDetailsService.java"
+],
+"RoutingDataSource": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/database/RoutingDataSource.java"
+],
+"TenantDetailsService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/tenant/TenantDetailsService.java"
+],
+"TenantId": null,
+"TenantServerConnection": null
+},
+"module": {
+"fineract-core": true
+},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_loan": true
+}
+},
+"HR-009": {
+"cls": {
+"BusinessEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/BusinessEvent.java",
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/BusinessEvent.java"
+],
+"BusinessEvents": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-010": {
+"cls": {
+"LoanStatus": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanStatus.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/LoanStatus.java"
+],
+"LoanStatusConverter": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanStatusConverter.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"HR-011": {
+"cls": {
+"ScheduledJobDetail": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/domain/ScheduledJobDetail.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-001": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-002": {
+"cls": {
+"ChargeCalculationType": [
+"fineract-charge/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeCalculationType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeCalculationType.java"
+],
+"ChargeTimeType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeTimeType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeTimeType.java"
+],
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"ANNUAL_FEE": true,
+"PERCENT_OF_AMOUNT": true
+},
+"table": {}
+},
+"PB-003": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-004": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-005": {
+"cls": {
+"FloatingRate": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRate.java"
+],
+"FloatingRatePeriod": [
+"fineract-rates/src/main/java/org/apache/fineract/portfolio/floatingrates/domain/FloatingRatePeriod.java"
+],
+"InterestRateChart": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/interestratechart/domain/InterestRateChart.java"
+],
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-006": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_loan_arrears_aging": true,
+"m_loan_transaction": true
+}
+},
+"PB-007": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-008": {
+"cls": {
+"AppUser": [
+"fineract-core/src/main/java/org/apache/fineract/useradministration/domain/AppUser.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"READ_CLIENT": true
+},
+"table": {
+"m_appuser": true,
+"m_office": true,
+"m_role_permission": true
+}
+},
+"PB-009": {
+"cls": {
+"ChargeCalculationType": [
+"fineract-charge/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeCalculationType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeCalculationType.java"
+],
+"ChargeTimeType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeTimeType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeTimeType.java"
+],
+"JournalEntry": [
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/accounting/JournalEntry.java",
+"fineract-accounting/src/main/java/org/apache/fineract/accounting/journalentry/domain/JournalEntry.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"SUBMITTED_AND_PENDING_APPROVAL": true
+},
+"table": {
+"m_loan_charge": true
+}
+},
+"PB-010": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-011": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-012": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-013": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-014": {
+"cls": {
+"AppUsers": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"APPROVE_LOAN": true
+},
+"table": {
+"m_portfolio_command_source": true
+}
+},
+"PB-015": {
+"cls": {
+"ExternalId": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/domain/ExternalId.java"
+],
+"FixedDepositAccount": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/domain/FixedDepositAccount.java"
+],
+"FixedDepositProduct": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/FixedDepositProduct.java"
+],
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+],
+"SavingsAccount": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccount.java"
+],
+"SavingsProduct": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsProduct.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"ACCT_TYPE": true
+},
+"table": {
+"m_client": true
+}
+},
+"PB-016": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-017": {
+"cls": {
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+],
+"TenantId": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-018": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-019": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"PB-020": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_client": true,
+"m_group": true,
+"m_loan": true,
+"m_loan_arrears_aging": true,
+"m_loan_repayment_schedule": true,
+"m_office": true
+}
+},
+"PB-021": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_journal_entry": true,
+"m_loan": true,
+"m_loan_repayment_schedule": true
+}
+},
+"PB-022": {
+"cls": {
+"AcmeLoanRepaymentScheduleTransactionProcessor": [
+"custom/acme/loan/processor/src/main/java/com/acme/fineract/loan/processor/AcmeLoanRepaymentScheduleTransactionProcessor.java"
+],
+"FineractStyleLoanRepaymentScheduleTransactionProcessor": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/impl/FineractStyleLoanRepaymentScheduleTransactionProcessor.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"STRATEGY_CODE": true,
+"STRATEGY_NAME": true
+},
+"table": {}
+},
+"PB-023": {
+"cls": {
+"CreditBureau": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/creditbureau/domain/CreditBureau.java"
+],
+"PaymentDetail": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/paymentdetail/domain/PaymentDetail.java"
+],
+"PaymentType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/paymenttype/domain/PaymentType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/paymenttype/PaymentType.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-001": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-002": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-003": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"LICENSE_RELEASE": true,
+"LICENSE_SOURCE": true
+},
+"table": {}
+},
+"AB-004": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-005": {
+"cls": {},
+"module": {
+"fineract-charge": true,
+"fineract-cob": true,
+"fineract-core": true,
+"fineract-loan": true,
+"fineract-provider": true,
+"fineract-rates": true,
+"fineract-savings": true,
+"fineract-tax": true
+},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-006": {
+"cls": {},
+"module": {
+"fineract-war": true
+},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-007": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-008": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-009": {
+"cls": {
+"CreditBureau": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/creditbureau/domain/CreditBureau.java"
+]
+},
+"module": {
+"fineract-charge": true,
+"fineract-cob": true,
+"fineract-core": true,
+"fineract-investor": true,
+"fineract-loan": true,
+"fineract-loan-origination": true,
+"fineract-ml": false,
+"fineract-progressive-loan": true,
+"fineract-rates": true,
+"fineract-savings": true,
+"fineract-tax": true,
+"fineract-working-capital-loan": true
+},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-010": {
+"cls": {
+"PostInterestForSavingTasklet": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/jobs/postinterestforsavings/PostInterestForSavingTasklet.java"
+],
+"SavingsAccountInterestCalculator": null,
+"SavingsAccountPostInterestService": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/service/SavingsAccountPostInterestService.java"
+],
+"SavingsAccountPostInterestServiceImpl": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/service/SavingsAccountPostInterestServiceImpl.java"
+],
+"SavingsAccountTransaction": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccountTransaction.java"
+]
+},
+"module": {
+"fineract-savings": true
+},
+"path": {},
+"fqcn": {},
+"enum": {
+"INTEREST_POSTING": true
+},
+"table": {}
+},
+"AB-011": {
+"cls": {
+"SavingsAccountPostInterestService": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/service/SavingsAccountPostInterestService.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-012": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_loan": true
+}
+},
+"AB-013": {
+"cls": {
+"LoanProduct": [
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/loanproduct/LoanProduct.java",
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/domain/LoanProduct.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-014": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"AB-015": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-001": {
+"cls": {
+"InitializingBean": null,
+"LoanAccountDomainService": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanAccountDomainService.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {
+"org.apache.fineract.cob.loan": null
+},
+"enum": {
+"ACME_LOAN_NOOP": true,
+"ENUM_STYLED_NAME": true,
+"HUMAN_READABLE_NAME": true
+},
+"table": {}
+},
+"CT-002": {
+"cls": {
+"ExternalIdFactory": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/ExternalIdFactory.java"
+],
+"FineractStyleLoanRepaymentScheduleTransactionProcessor": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/impl/FineractStyleLoanRepaymentScheduleTransactionProcessor.java"
+],
+"GetCode": null,
+"LoanBalanceService": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/service/LoanBalanceService.java"
+],
+"LoanChargeValidator": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/serialization/LoanChargeValidator.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {
+"org.apache.fineract.portfolio.loanaccount.domain.transactionprocessor.impl": null
+},
+"enum": {
+"STRATEGY_CODE": true,
+"STRATEGY_NAME": true
+},
+"table": {}
+},
+"CT-003": {
+"cls": {
+"AcmeJobName": [
+"custom/acme/loan/job/src/main/java/com/acme/fineract/loan/job/AcmeJobName.java"
+],
+"ToString": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"ACME_NOOP_JOB": true
+},
+"table": {}
+},
+"CT-004": {
+"cls": {
+"AcmeLoanExternalEvent": [
+"custom/acme/event/externalevent/src/main/java/com/acme/fineract/event/externalevent/AcmeLoanExternalEvent.java"
+],
+"BusinessEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/BusinessEvent.java",
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/BusinessEvent.java"
+],
+"GetType": null,
+"LoanBusinessEvent": [
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/externalevents/LoanBusinessEvent.java",
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/LoanBusinessEvent.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {
+"org.apache.fineract.infrastructure.event.business.domain.loan.LoanBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/LoanBusinessEvent.java"
+]
+},
+"enum": {},
+"table": {}
+},
+"CT-005": {
+"cls": {
+"ConditionalOnProperty": null,
+"InitializingBean": null,
+"NoteReadPlatformService": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/note/service/NoteReadPlatformService.java"
+],
+"RetrieveNote": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-006": {
+"cls": {
+"AcmeEventAutoConfiguration": [
+"custom/acme/event/starter/src/main/java/com/acme/fineract/event/starter/AcmeEventAutoConfiguration.java"
+],
+"AcmeLoanAutoConfiguration": [
+"custom/acme/loan/starter/src/main/java/com/acme/fineract/loan/starter/AcmeLoanAutoConfiguration.java"
+],
+"AcmeNoteAutoConfiguration": [
+"custom/acme/note/starter/src/main/java/com/acme/fineract/portfolio/note/starter/AcmeNoteAutoConfiguration.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-007": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-008": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-009": {
+"cls": {
+"WebSocket": null
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-010": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-011": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-012": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-013": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-014": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CT-015": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"SG-001": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"SG-002": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_portfolio_command_source": true
+}
+},
+"SG-003": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"SG-004": {
+"cls": {},
+"module": {},
+"path": {
+"application.properties": null
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"SG-005": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {
+"LICENSE_RELEASE": true,
+"LICENSE_SOURCE": true,
+"NOTICE_RELEASE": true,
+"NOTICE_SOURCE": true
+},
+"table": {}
+},
+"SG-006": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"SG-007": {
+"cls": {},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"SG-008": {
+"cls": {
+"ExternalId": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/domain/ExternalId.java"
+]
+},
+"module": {},
+"path": {},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CIG-001": {
+"cls": {
+"AbstractLoanRepaymentScheduleTransactionProcessor": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/AbstractLoanRepaymentScheduleTransactionProcessor.java"
+],
+"AcmeLoanRepaymentScheduleTransactionProcessor": [
+"custom/acme/loan/processor/src/main/java/com/acme/fineract/loan/processor/AcmeLoanRepaymentScheduleTransactionProcessor.java"
+],
+"FineractStyleLoanRepaymentScheduleTransactionProcessor": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/impl/FineractStyleLoanRepaymentScheduleTransactionProcessor.java"
+],
+"LoanDropdownReadPlatformServiceImpl": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanproduct/service/LoanDropdownReadPlatformServiceImpl.java"
+],
+"LoanRepaymentScheduleTransactionProcessor": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/LoanRepaymentScheduleTransactionProcessor.java"
+],
+"LoanRepaymentScheduleTransactionProcessorFactory": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanRepaymentScheduleTransactionProcessorFactory.java"
+],
+"LoanTransactionProcessingStrategyNotFoundException": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/exception/LoanTransactionProcessingStrategyNotFoundException.java"
+],
+"StepBuilderFactory": null
+},
+"module": {
+"fineract-loan": true
+},
+"path": {
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/AbstractLoanRepaymentScheduleTransactionProcessor.java": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/AbstractLoanRepaymentScheduleTransactionProcessor.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CIG-002": {
+"cls": {
+"BusinessEventNotifier": null,
+"BusinessEventNotifierService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierService.java"
+],
+"ChargeTimeType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/charge/domain/ChargeTimeType.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/ChargeTimeType.java"
+],
+"ChronoUnit": null,
+"DateUtils": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/DateUtils.java"
+],
+"LoanCharge": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanCharge.java"
+],
+"LoanChargeAddedBusinessEvent": null,
+"LoanChargeAdjustmentPre": null,
+"LoanChargeBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/charge/LoanChargeBusinessEvent.java"
+],
+"LoanChargePaymentPre": null,
+"LoanChargeRefundBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/transaction/LoanChargeRefundBusinessEvent.java"
+],
+"LoanChargeRepository": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanChargeRepository.java"
+],
+"LoanRepaymentScheduleInstallment": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanRepaymentScheduleInstallment.java"
+],
+"LoanStatusChangedBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/LoanStatusChangedBusinessEvent.java"
+],
+"LoanUpdateChargeBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/charge/LoanUpdateChargeBusinessEvent.java"
+],
+"LoanWaiveChargeBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/charge/LoanWaiveChargeBusinessEvent.java"
+],
+"LoanWaiveChargeUndoBusinessEvent": [
+"fineract-loan/src/main/java/org/apache/fineract/infrastructure/event/business/domain/loan/charge/LoanWaiveChargeUndoBusinessEvent.java"
+],
+"LocalDate": [
+"fineract-validation/src/main/java/org/apache/fineract/validation/constraints/LocalDate.java"
+],
+"PostBusinessEvent": null,
+"StepBuilderFactory": null
+},
+"module": {
+"fineract-core": true,
+"fineract-loan": true
+},
+"path": {
+"Loan.java": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/Loan.java"
+],
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java": null,
+"fineract-loan/src/main/java/org/apache/fineract/cob/loan/LoanCOBBusinessStep.java": [
+"fineract-loan/src/main/java/org/apache/fineract/cob/loan/LoanCOBBusinessStep.java"
+]
+},
+"fqcn": {},
+"enum": {
+"OVERDUE_INSTALLMENT": true,
+"SCREAMING_SNAKE_CASE": true
+},
+"table": {}
+},
+"CIG-003": {
+"cls": {
+"AppUser": [
+"fineract-core/src/main/java/org/apache/fineract/useradministration/domain/AppUser.java"
+],
+"LoanAccountData": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/data/LoanAccountData.java"
+],
+"LoanRepository": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanRepository.java"
+],
+"LoanStatus": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanStatus.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/LoanStatus.java"
+],
+"LoanStatusConverter": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanStatusConverter.java"
+],
+"PlatformSecurityContext": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/security/service/PlatformSecurityContext.java"
+]
+},
+"module": {},
+"path": {
+"Loan.java": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/Loan.java"
+],
+"LoanStatus.java": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/LoanStatus.java",
+"fineract-e2e-tests-core/src/test/java/org/apache/fineract/test/data/LoanStatus.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CIG-004": {
+"cls": {
+"ApplicationEventPublisher": null,
+"BusinessEventListener": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/BusinessEventListener.java"
+],
+"BusinessEventNotifier": null,
+"BusinessEventNotifierService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierService.java"
+],
+"BusinessEventNotifierServiceImpl": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierServiceImpl.java"
+],
+"ExternalBusinessEventConfigurationService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/ExternalBusinessEventConfigurationService.java"
+],
+"ExternalEventPublisher": null,
+"ExternalEventService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/external/service/ExternalEventService.java"
+],
+"GlobalConfigurationProperty": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/configuration/domain/GlobalConfigurationProperty.java"
+],
+"NoExternalEvent": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/domain/NoExternalEvent.java"
+],
+"TransactionExecutionListener": null
+},
+"module": {
+"fineract-core": true
+},
+"path": {
+"BusinessEventNotifier.java": null,
+"application.properties": null,
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java": null,
+"fineract-core/.../infrastructure/event/external/service/ExternalEventService.java": null
+},
+"fqcn": {},
+"enum": {
+"FINERACT_EXTERNAL_EVENTS_ENABLED": true
+},
+"table": {}
+},
+"CIG-005": {
+"cls": {
+"DepositAccountTermAndPreClosure": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/DepositAccountTermAndPreClosure.java"
+],
+"FixedDepositAccount": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/domain/FixedDepositAccount.java"
+],
+"LocalDate": [
+"fineract-validation/src/main/java/org/apache/fineract/validation/constraints/LocalDate.java"
+],
+"SavingsAccount": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccount.java"
+],
+"SavingsAccountStatusType": [
+"fineract-core/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccountStatusType.java"
+]
+},
+"module": {
+"fineract-core": true
+},
+"path": {
+"DepositAccountTermAndPreClosure.java": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/DepositAccountTermAndPreClosure.java"
+],
+"FixedDepositAccount.java": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/domain/FixedDepositAccount.java"
+],
+"SavingsAccount.java": [
+"fineract-savings/src/main/java/org/apache/fineract/portfolio/savings/domain/SavingsAccount.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CIG-006": {
+"cls": {
+"CommandHandlerProvider": [
+"fineract-core/src/main/java/org/apache/fineract/commands/provider/CommandHandlerProvider.java"
+],
+"CommandProcessingResult": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/data/CommandProcessingResult.java"
+],
+"CommandProcessingService": [
+"fineract-core/src/main/java/org/apache/fineract/commands/service/CommandProcessingService.java"
+],
+"CommandStrategy": [
+"fineract-core/src/main/java/org/apache/fineract/batch/command/CommandStrategy.java"
+],
+"CommandWrapper": [
+"fineract-core/src/main/java/org/apache/fineract/commands/domain/CommandWrapper.java"
+],
+"CommandWrapperBuilder": [
+"fineract-core/src/main/java/org/apache/fineract/commands/service/CommandWrapperBuilder.java"
+],
+"JsonCommand": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/api/JsonCommand.java"
+],
+"NewCommandSourceHandler": [
+"fineract-core/src/main/java/org/apache/fineract/commands/handler/NewCommandSourceHandler.java"
+],
+"PortfolioCommandSourceWritePlatformService": [
+"fineract-core/src/main/java/org/apache/fineract/commands/service/PortfolioCommandSourceWritePlatformService.java"
+],
+"SynchronousCommandProcessingService": [
+"fineract-core/src/main/java/org/apache/fineract/commands/service/SynchronousCommandProcessingService.java"
+]
+},
+"module": {
+"fineract-core": true
+},
+"path": {
+"fineract-core/.../commands/provider/CommandHandlerProvider.java": null
+},
+"fqcn": {
+"org.apache.fineract.batch.command": null
+},
+"enum": {},
+"table": {}
+},
+"CIG-007": {
+"cls": {
+"AbstractRoutingDataSource": null,
+"DataSource": null,
+"DataSourcePerTenantServiceFactory": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/database/DataSourcePerTenantServiceFactory.java"
+],
+"FineractPlatformTenant": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/domain/FineractPlatformTenant.java"
+],
+"FineractPlatformTenantConnection": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/domain/FineractPlatformTenantConnection.java"
+],
+"FineractTenantIdentifyingFilter": null,
+"JdbcTenantDetailsService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/tenant/JdbcTenantDetailsService.java"
+],
+"RoutingDataSource": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/database/RoutingDataSource.java"
+],
+"TenantAwareAuthenticationFilter": [
+"fineract-security/src/main/java/org/apache/fineract/infrastructure/security/filter/TenantAwareAuthenticationFilter.java"
+],
+"TenantAwareBasicAuthenticationFilter": [
+"fineract-security/src/main/java/org/apache/fineract/infrastructure/security/filter/TenantAwareBasicAuthenticationFilter.java"
+],
+"TenantDetailsService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/tenant/TenantDetailsService.java"
+],
+"TenantId": null,
+"ThreadLocalContextUtil": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/core/service/ThreadLocalContextUtil.java"
+]
+},
+"module": {
+"fineract-core": true,
+"fineract-security": true
+},
+"path": {
+"fineract-core/.../infrastructure/core/service/database/RoutingDataSource.java": null
+},
+"fqcn": {},
+"enum": {},
+"table": {}
+},
+"CIG-008": {
+"cls": {
+"AccountingConstants": [
+"fineract-core/src/main/java/org/apache/fineract/accounting/common/AccountingConstants.java"
+],
+"AccountingProcessorHelper": [
+"fineract-provider/src/main/java/org/apache/fineract/accounting/journalentry/service/AccountingProcessorHelper.java"
+],
+"AccrualAccountsForLoan": null,
+"CashAccountsForLoan": null,
+"JournalEntry": [
+"integration-tests/src/test/java/org/apache/fineract/integrationtests/common/accounting/JournalEntry.java",
+"fineract-accounting/src/main/java/org/apache/fineract/accounting/journalentry/domain/JournalEntry.java"
+],
+"JournalEntryRepository": [
+"fineract-accounting/src/main/java/org/apache/fineract/accounting/journalentry/domain/JournalEntryRepository.java"
+],
+"LoanPortfolioAccountingParams": null,
+"LoanProductAccountingParams": null,
+"OrReversal": null
+},
+"module": {
+"fineract-accounting": true,
+"fineract-core": true,
+"fineract-provider": true
+},
+"path": {
+"fineract-accounting/src/main/java/org/apache/fineract/accounting/journalentry/domain/JournalEntryRepository.java": [
+"fineract-accounting/src/main/java/org/apache/fineract/accounting/journalentry/domain/JournalEntryRepository.java"
+],
+"fineract-core/src/main/java/org/apache/fineract/accounting/common/AccountingConstants.java": [
+"fineract-core/src/main/java/org/apache/fineract/accounting/common/AccountingConstants.java"
+],
+"fineract-provider/src/main/java/org/apache/fineract/accounting/journalentry/service/AccountingProcessorHelper.java": [
+"fineract-provider/src/main/java/org/apache/fineract/accounting/journalentry/service/AccountingProcessorHelper.java"
+]
+},
+"fqcn": {
+"org.apache.fineract.accounting.": null
+},
+"enum": {
+"FEE_INCOME": true,
+"INCOME_FROM_FEES": true
+},
+"table": {}
+},
+"CIG-009": {
+"cls": {
+"DefaultSchedulerFactoryBean": null,
+"JobDetail": null,
+"JobName": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobName.java"
+],
+"JobRegisterServiceImpl": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobRegisterServiceImpl.java"
+],
+"PostInterestForSavingConfig": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/jobs/postinterestforsavings/PostInterestForSavingConfig.java"
+],
+"PostInterestForSavingTasklet": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/savings/jobs/postinterestforsavings/PostInterestForSavingTasklet.java"
+],
+"ScheduledJobDetail": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/domain/ScheduledJobDetail.java"
+],
+"SchedulerFactoryBean": null,
+"SchedulerJobApiResource": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/api/SchedulerJobApiResource.java"
+],
+"SchedulerJobListener": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/service/SchedulerJobListener.java"
+],
+"SchedulerTriggerListener": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/service/SchedulerTriggerListener.java"
+],
+"UpdateLoanArrearsAgeingConfig": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/UpdateLoanArrearsAgeingConfig.java"
+],
+"UpdateLoanArrearsAgeingTasklet": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/jobs/updateloanarrearsageing/UpdateLoanArrearsAgeingTasklet.java"
+]
+},
+"module": {
+"fineract-core": true,
+"fineract-provider": true
+},
+"path": {
+"ScheduledJobDetail.java": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/domain/ScheduledJobDetail.java"
+],
+"application.properties": null,
+"db.changelog-master.xml": null,
+"fineract-core/.../infrastructure/jobs/service/JobName.java": null,
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobRegisterServiceImpl.java": [
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobRegisterServiceImpl.java"
+]
+},
+"fqcn": {},
+"enum": {},
+"table": {
+"m_job_detail": true,
+"scheduler_group": true
+}
+},
+"CIG-010": {
+"cls": {
+"BusinessEventListener": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/BusinessEventListener.java"
+],
+"BusinessEventNotifier": null,
+"BusinessEventNotifierService": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierService.java"
+],
+"BusinessEventNotifierServiceImpl": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/event/business/service/BusinessEventNotifierServiceImpl.java"
+],
+"InitializingBean": null,
+"RuntimeException": null,
+"TransactionExecutionListener": null,
+"TransactionalEventListener": null
+},
+"module": {
+"fineract-core": true
+},
+"path": {
+"fineract-core/.../event/business/service/BusinessEventNotifierServiceImpl.java": null
+},
+"fqcn": {},
+"enum": {
+"AFTER_COMMIT": true
+},
+"table": {}
+}
+}

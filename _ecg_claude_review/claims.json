@@ -1,0 +1,1688 @@
+{
+"FL-001": {
+"fqcn": [
+"org.apache.fineract.portfolio.loanaccount.domain.Loan"
+],
+"path": [
+"LoanProduct.java"
+],
+"module": [
+"fineract-loan"
+],
+"table": [],
+"cls": [
+"LoanProduct"
+],
+"enum": []
+},
+"FL-002": {
+"fqcn": [
+"org.apache.fineract.commands.domain."
+],
+"path": [],
+"module": [
+"fineract-core",
+"fineract-provider"
+],
+"table": [],
+"cls": [
+"CommandWrapper"
+],
+"enum": []
+},
+"FL-003": {
+"fqcn": [],
+"path": [
+"GLAccountType.java"
+],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"FL-004": {
+"fqcn": [],
+"path": [],
+"module": [
+"fineract-provider"
+],
+"table": [],
+"cls": [
+"JobExecution",
+"ScheduledJobDetail",
+"SpringBatchJobConfig"
+],
+"enum": []
+},
+"FL-005": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"FixedDepositAccount",
+"SavingsAccount"
+],
+"enum": []
+},
+"FL-006": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"TaxComponent",
+"TaxGroup"
+],
+"enum": []
+},
+"FL-007": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CU-001": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CU-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"FixedDepositAccount",
+"RecurringDepositAccount",
+"SavingsAccount"
+],
+"enum": []
+},
+"CU-003": {
+"fqcn": [],
+"path": [
+"fineract-rates/.../portfolio/floatingrates/domain/FloatingRate.java"
+],
+"module": [
+"fineract-rates"
+],
+"table": [],
+"cls": [
+"FloatingRate",
+"FloatingRatePeriod",
+"JobName",
+"LoanProduct"
+],
+"enum": [
+"RECALCULATE_INTEREST_FOR_LOAN"
+]
+},
+"CU-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanRepaymentScheduleInstallment",
+"LoanRescheduleRequest"
+],
+"enum": []
+},
+"CU-005": {
+"fqcn": [],
+"path": [
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java",
+"fineract-core/.../infrastructure/event/business/domain/BusinessEvent.java"
+],
+"module": [
+"fineract-core"
+],
+"table": [],
+"cls": [
+"BusinessEvent",
+"BusinessEventListener",
+"BusinessEventNotifier",
+"BusinessEventNotifierService",
+"BusinessEventNotifierServiceImpl",
+"ExternalBusinessEventConfigurationService",
+"NoExternalEvent",
+"RuntimeException",
+"TransactionExecutionListener"
+],
+"enum": []
+},
+"CU-006": {
+"fqcn": [],
+"path": [
+".../infrastructure/hooks/domain/Hook.java",
+".../infrastructure/hooks/processor/WebHookProcessor.java"
+],
+"module": [
+"fineract-core",
+"fineract-provider"
+],
+"table": [],
+"cls": [
+"BusinessEvent",
+"FineractHookListener",
+"HookEvent",
+"HookEventSource",
+"HookListener",
+"WebHookProcessor",
+"WebhookEventListener"
+],
+"enum": []
+},
+"CU-007": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"ChargeCalculationType",
+"ChargeTimeType"
+],
+"enum": [
+"PERCENT_AMOUNT",
+"PERCENT_OF_AMOUNT",
+"PERCENT_OF_AMOUNT_AND_INTEREST",
+"PERCENT_OF_DISBURSEMENT_AMOUNT",
+"PERCENT_OF_INTEREST"
+]
+},
+"CU-008": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AC-001": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanProduct"
+],
+"enum": []
+},
+"AC-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"FloatingRate",
+"FloatingRatePeriod",
+"InterestRateChart"
+],
+"enum": []
+},
+"AC-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AppUser"
+],
+"enum": []
+},
+"AC-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AdHoc"
+],
+"enum": [
+"READ_ADHOC"
+]
+},
+"AC-005": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AC-006": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanTransaction",
+"TellerTransaction"
+],
+"enum": []
+},
+"MH-001": {
+"fqcn": [],
+"path": [
+"LoanArrearsAgeingUpdateHandler.java",
+"UpdateLoanArrearsAgeingConfig.java",
+"UpdateLoanArrearsAgeingTasklet.java"
+],
+"module": [
+"fineract-loan"
+],
+"table": [
+"m_loan_arrears_aging"
+],
+"cls": [
+"BusinessEvent",
+"BusinessEventNotifierService",
+"JobName",
+"LoanArrearsAgeingUpdateHandler",
+"LoanArrearsAging",
+"LoanRepaymentScheduleInstallment",
+"LoanRepaymentScheduleTransactionProcessor",
+"LoanTransaction",
+"LoanTransactionBusinessEvent",
+"UpdateLoanArrearsAgeingConfig",
+"UpdateLoanArrearsAgeingTasklet"
+],
+"enum": [
+"UPDATE_LOAN_ARREARS_AGEING"
+]
+},
+"MH-002": {
+"fqcn": [],
+"path": [
+"fineract-core/src/main/java/org/apache/fineract/infrastructure/security/exception/NoAuthorizationException.java"
+],
+"module": [
+"fineract-core"
+],
+"table": [],
+"cls": [
+"AppUser",
+"ForbiddenException",
+"LoansApiResource",
+"NoAuthorizationException",
+"PlatformSecurityContext",
+"TemplateForbiddenException"
+],
+"enum": [
+"APPROVE_LOAN"
+]
+},
+"MH-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"BusinessEventNotifier",
+"BusinessEventNotifierService",
+"BusinessEventNotifierServiceImpl",
+"FineractHookListener",
+"JobName",
+"LoanStatusChangedBusinessEvent",
+"ScheduledJobDetail",
+"TransactionExecutionListener",
+"WebHookProcessor"
+],
+"enum": [
+"APPLY_CHARGE_TO_OVERDUE_LOAN_INSTALLMENT"
+]
+},
+"MH-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AppUser",
+"SearchParameters"
+],
+"enum": []
+},
+"MH-005": {
+"fqcn": [],
+"path": [
+"fineract-provider/src/main/java/org/apache/fineract/portfolio/account/domain/AccountTransferStandingInstruction.java"
+],
+"module": [
+"fineract-provider"
+],
+"table": [],
+"cls": [
+"AccountTransferStandingInstruction",
+"JobName",
+"LoanRepaymentScheduleInstallment",
+"LoanTransaction",
+"SavingsAccount",
+"SavingsAccountTransaction",
+"StandingInstruction",
+"StandingInstructionAssembler",
+"StandingInstructionExecutedBusinessEvent",
+"StandingInstructionPriority",
+"StandingInstructionRepository",
+"StandingInstructionStatus",
+"StandingInstructionType"
+],
+"enum": [
+"EXECUTE_STANDING_INSTRUCTIONS"
+]
+},
+"MH-006": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanChargePaidByData",
+"TaxComponent",
+"TaxGroup"
+],
+"enum": []
+},
+"PH-001": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"FloatingRate",
+"FloatingRatePeriod",
+"InterestRateDifferential",
+"LoanProduct"
+],
+"enum": []
+},
+"PH-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": [
+"APPROVE_LOAN",
+"CREATE_LOAN"
+]
+},
+"PH-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": [
+"EXECUTE_TRANSACTION"
+]
+},
+"PH-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PH-005": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"HR-001": {
+"fqcn": [],
+"path": [
+"CreditBureau.java"
+],
+"module": [],
+"table": [],
+"cls": [
+"CreditBureau",
+"CreditModel"
+],
+"enum": []
+},
+"HR-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"ApplicationCurrency"
+],
+"enum": []
+},
+"HR-003": {
+"fqcn": [],
+"path": [
+"application.properties",
+"application.yml"
+],
+"module": [],
+"table": [],
+"cls": [
+"ConfigurationDomainServiceJpa",
+"GlobalConfigurationProperty"
+],
+"enum": []
+},
+"HR-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"GlobalConfigurationProperty"
+],
+"enum": [
+"APPROVE_LOAN",
+"CREATE_CLIENT"
+]
+},
+"HR-005": {
+"fqcn": [],
+"path": [],
+"module": [
+"fineract-mobile",
+"fineract-ui"
+],
+"table": [],
+"cls": [],
+"enum": []
+},
+"MR-001": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"MR-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"MR-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"PostInterestForSavingConfig",
+"PostInterestForSavingTasklet",
+"SavingsAccountInterestCalculator",
+"SavingsAccountPostInterestService",
+"SavingsAccountPostInterestServiceImpl",
+"SavingsAccountTransaction"
+],
+"enum": [
+"INTEREST_POSTING"
+]
+},
+"MR-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": [
+"PERCENT_AMOUNT_AND_INTEREST",
+"PERCENT_OF_AMOUNT",
+"PERCENT_OF_AMOUNT_AND_INTEREST"
+]
+},
+"CG-001": {
+"fqcn": [
+"org.apache.fineract.portfolio.loanaccount.domain.LoanStatus.ACTIVE"
+],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanStatus",
+"LoanStatusConverter",
+"LocalDate"
+],
+"enum": []
+},
+"CG-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"CommandWrapperBuilder"
+],
+"enum": []
+},
+"CG-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"FindOneByName",
+"GlobalConfigurationConstants",
+"GlobalConfigurationProperty",
+"OrElseThrow"
+],
+"enum": [
+"ALLOW_BACKDATED_TRANSACTION_BEFORE_INTEREST_POSTING"
+]
+},
+"CG-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"BusinessEvent",
+"BusinessEventListener",
+"BusinessEventType",
+"EventListener",
+"GetType",
+"LargeWithdrawalBusinessEvent",
+"NotifyPostBusinessEvent",
+"SavingsAccountTransaction"
+],
+"enum": []
+},
+"CG-005": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AnnualInterestRate",
+"PeriodType"
+],
+"enum": []
+},
+"CG-006": {
+"fqcn": [],
+"path": [
+"fineract-cob/src/main/java/org/apache/fineract/cob/COBBusinessStep.java",
+"fineract-loan/src/main/java/org/apache/fineract/cob/loan/LoanCOBBusinessStep.java"
+],
+"module": [
+"fineract-cob",
+"fineract-loan"
+],
+"table": [],
+"cls": [
+"AbstractPersistableCustom",
+"DateUtils",
+"LocalDate",
+"StepBuilderFactory",
+"WorkingCapitalLoan"
+],
+"enum": []
+},
+"CRD-001": {
+"fqcn": [],
+"path": [
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java"
+],
+"module": [
+"fineract-core"
+],
+"table": [
+"m_portfolio_command_source"
+],
+"cls": [
+"BusinessEventNotifier",
+"BusinessEventNotifierService",
+"CommandWrapper",
+"LoanRepaymentScheduleTransactionProcessor",
+"NoSuchElementException"
+],
+"enum": []
+},
+"CRD-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_role_permission"
+],
+"cls": [
+"AppUser",
+"GlobalConfigurationProperty"
+],
+"enum": [
+"APPROVE_LOAN"
+]
+},
+"CRD-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_charge",
+"m_loan_charge"
+],
+"cls": [
+"ChargeTimeType",
+"JobName",
+"LoanProduct"
+],
+"enum": [
+"APPLY_CHARGE_TO_OVERDUE_LOAN_INSTALLMENT",
+"OVERDUE_INSTALLMENT"
+]
+},
+"HR-006": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"JournalEntry"
+],
+"enum": []
+},
+"HR-007": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"PaymentDetail",
+"PaymentType"
+],
+"enum": []
+},
+"HR-008": {
+"fqcn": [],
+"path": [],
+"module": [
+"fineract-core"
+],
+"table": [
+"m_loan"
+],
+"cls": [
+"DataSourcePerTenantServiceFactory",
+"FineractPlatformTenant",
+"FineractPlatformTenantConnection",
+"JdbcTenantDetailsService",
+"RoutingDataSource",
+"TenantDetailsService",
+"TenantId",
+"TenantServerConnection"
+],
+"enum": []
+},
+"HR-009": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"BusinessEvent",
+"BusinessEvents"
+],
+"enum": []
+},
+"HR-010": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanStatus",
+"LoanStatusConverter"
+],
+"enum": []
+},
+"HR-011": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"ScheduledJobDetail"
+],
+"enum": []
+},
+"PB-001": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"ChargeCalculationType",
+"ChargeTimeType",
+"LoanProduct"
+],
+"enum": [
+"ANNUAL_FEE",
+"PERCENT_OF_AMOUNT"
+]
+},
+"PB-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-005": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"FloatingRate",
+"FloatingRatePeriod",
+"InterestRateChart",
+"LoanProduct"
+],
+"enum": []
+},
+"PB-006": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_loan_arrears_aging",
+"m_loan_transaction"
+],
+"cls": [],
+"enum": []
+},
+"PB-007": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-008": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_appuser",
+"m_office",
+"m_role_permission"
+],
+"cls": [
+"AppUser"
+],
+"enum": [
+"READ_CLIENT"
+]
+},
+"PB-009": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_loan_charge"
+],
+"cls": [
+"ChargeCalculationType",
+"ChargeTimeType",
+"JournalEntry"
+],
+"enum": [
+"SUBMITTED_AND_PENDING_APPROVAL"
+]
+},
+"PB-010": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-011": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-012": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-013": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-014": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_portfolio_command_source"
+],
+"cls": [
+"AppUsers"
+],
+"enum": [
+"APPROVE_LOAN"
+]
+},
+"PB-015": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_client"
+],
+"cls": [
+"ExternalId",
+"FixedDepositAccount",
+"FixedDepositProduct",
+"LoanProduct",
+"SavingsAccount",
+"SavingsProduct"
+],
+"enum": [
+"ACCT_TYPE"
+]
+},
+"PB-016": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-017": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanProduct",
+"TenantId"
+],
+"enum": []
+},
+"PB-018": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-019": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"PB-020": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_client",
+"m_group",
+"m_loan",
+"m_loan_arrears_aging",
+"m_loan_repayment_schedule",
+"m_office"
+],
+"cls": [],
+"enum": []
+},
+"PB-021": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_journal_entry",
+"m_loan",
+"m_loan_repayment_schedule"
+],
+"cls": [],
+"enum": []
+},
+"PB-022": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AcmeLoanRepaymentScheduleTransactionProcessor",
+"FineractStyleLoanRepaymentScheduleTransactionProcessor"
+],
+"enum": [
+"STRATEGY_CODE",
+"STRATEGY_NAME"
+]
+},
+"PB-023": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"CreditBureau",
+"PaymentDetail",
+"PaymentType"
+],
+"enum": []
+},
+"AB-001": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": [
+"LICENSE_RELEASE",
+"LICENSE_SOURCE"
+]
+},
+"AB-004": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-005": {
+"fqcn": [],
+"path": [],
+"module": [
+"fineract-charge",
+"fineract-cob",
+"fineract-core",
+"fineract-loan",
+"fineract-provider",
+"fineract-rates",
+"fineract-savings",
+"fineract-tax"
+],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-006": {
+"fqcn": [],
+"path": [],
+"module": [
+"fineract-war"
+],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-007": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-008": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-009": {
+"fqcn": [],
+"path": [],
+"module": [
+"fineract-charge",
+"fineract-cob",
+"fineract-core",
+"fineract-investor",
+"fineract-loan",
+"fineract-loan-origination",
+"fineract-ml",
+"fineract-progressive-loan",
+"fineract-rates",
+"fineract-savings",
+"fineract-tax",
+"fineract-working-capital-loan"
+],
+"table": [],
+"cls": [
+"CreditBureau"
+],
+"enum": []
+},
+"AB-010": {
+"fqcn": [],
+"path": [],
+"module": [
+"fineract-savings"
+],
+"table": [],
+"cls": [
+"PostInterestForSavingTasklet",
+"SavingsAccountInterestCalculator",
+"SavingsAccountPostInterestService",
+"SavingsAccountPostInterestServiceImpl",
+"SavingsAccountTransaction"
+],
+"enum": [
+"INTEREST_POSTING"
+]
+},
+"AB-011": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"SavingsAccountPostInterestService"
+],
+"enum": []
+},
+"AB-012": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_loan"
+],
+"cls": [],
+"enum": []
+},
+"AB-013": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"LoanProduct"
+],
+"enum": []
+},
+"AB-014": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"AB-015": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-001": {
+"fqcn": [
+"org.apache.fineract.cob.loan"
+],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"InitializingBean",
+"LoanAccountDomainService"
+],
+"enum": [
+"ACME_LOAN_NOOP",
+"ENUM_STYLED_NAME",
+"HUMAN_READABLE_NAME"
+]
+},
+"CT-002": {
+"fqcn": [
+"org.apache.fineract.portfolio.loanaccount.domain.transactionprocessor.impl"
+],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"ExternalIdFactory",
+"FineractStyleLoanRepaymentScheduleTransactionProcessor",
+"GetCode",
+"LoanBalanceService",
+"LoanChargeValidator"
+],
+"enum": [
+"STRATEGY_CODE",
+"STRATEGY_NAME"
+]
+},
+"CT-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AcmeJobName",
+"ToString"
+],
+"enum": [
+"ACME_NOOP_JOB"
+]
+},
+"CT-004": {
+"fqcn": [
+"org.apache.fineract.infrastructure.event.business.domain.loan.LoanBusinessEvent"
+],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AcmeLoanExternalEvent",
+"BusinessEvent",
+"GetType",
+"LoanBusinessEvent"
+],
+"enum": []
+},
+"CT-005": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"ConditionalOnProperty",
+"InitializingBean",
+"NoteReadPlatformService",
+"RetrieveNote"
+],
+"enum": []
+},
+"CT-006": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"AcmeEventAutoConfiguration",
+"AcmeLoanAutoConfiguration",
+"AcmeNoteAutoConfiguration"
+],
+"enum": []
+},
+"CT-007": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-008": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-009": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"WebSocket"
+],
+"enum": []
+},
+"CT-010": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-011": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-012": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-013": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-014": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"CT-015": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"SG-001": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"SG-002": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [
+"m_portfolio_command_source"
+],
+"cls": [],
+"enum": []
+},
+"SG-003": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"SG-004": {
+"fqcn": [],
+"path": [
+"application.properties"
+],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"SG-005": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": [
+"LICENSE_RELEASE",
+"LICENSE_SOURCE",
+"NOTICE_RELEASE",
+"NOTICE_SOURCE"
+]
+},
+"SG-006": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"SG-007": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [],
+"enum": []
+},
+"SG-008": {
+"fqcn": [],
+"path": [],
+"module": [],
+"table": [],
+"cls": [
+"ExternalId"
+],
+"enum": []
+},
+"CIG-001": {
+"fqcn": [],
+"path": [
+"fineract-loan/src/main/java/org/apache/fineract/portfolio/loanaccount/domain/transactionprocessor/AbstractLoanRepaymentScheduleTransactionProcessor.java"
+],
+"module": [
+"fineract-loan"
+],
+"table": [],
+"cls": [
+"AbstractLoanRepaymentScheduleTransactionProcessor",
+"AcmeLoanRepaymentScheduleTransactionProcessor",
+"FineractStyleLoanRepaymentScheduleTransactionProcessor",
+"LoanDropdownReadPlatformServiceImpl",
+"LoanRepaymentScheduleTransactionProcessor",
+"LoanRepaymentScheduleTransactionProcessorFactory",
+"LoanTransactionProcessingStrategyNotFoundException",
+"StepBuilderFactory"
+],
+"enum": []
+},
+"CIG-002": {
+"fqcn": [],
+"path": [
+"Loan.java",
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java",
+"fineract-loan/src/main/java/org/apache/fineract/cob/loan/LoanCOBBusinessStep.java"
+],
+"module": [
+"fineract-core",
+"fineract-loan"
+],
+"table": [],
+"cls": [
+"BusinessEventNotifier",
+"BusinessEventNotifierService",
+"ChargeTimeType",
+"ChronoUnit",
+"DateUtils",
+"LoanCharge",
+"LoanChargeAddedBusinessEvent",
+"LoanChargeAdjustmentPre",
+"LoanChargeBusinessEvent",
+"LoanChargePaymentPre",
+"LoanChargeRefundBusinessEvent",
+"LoanChargeRepository",
+"LoanRepaymentScheduleInstallment",
+"LoanStatusChangedBusinessEvent",
+"LoanUpdateChargeBusinessEvent",
+"LoanWaiveChargeBusinessEvent",
+"LoanWaiveChargeUndoBusinessEvent",
+"LocalDate",
+"PostBusinessEvent",
+"StepBuilderFactory"
+],
+"enum": [
+"OVERDUE_INSTALLMENT",
+"SCREAMING_SNAKE_CASE"
+]
+},
+"CIG-003": {
+"fqcn": [],
+"path": [
+"Loan.java",
+"LoanStatus.java"
+],
+"module": [],
+"table": [],
+"cls": [
+"AppUser",
+"LoanAccountData",
+"LoanRepository",
+"LoanStatus",
+"LoanStatusConverter",
+"PlatformSecurityContext"
+],
+"enum": []
+},
+"CIG-004": {
+"fqcn": [],
+"path": [
+"BusinessEventNotifier.java",
+"application.properties",
+"fineract-core/.../event/business/service/BusinessEventNotifierService.java",
+"fineract-core/.../infrastructure/event/external/service/ExternalEventService.java"
+],
+"module": [
+"fineract-core"
+],
+"table": [],
+"cls": [
+"ApplicationEventPublisher",
+"BusinessEventListener",
+"BusinessEventNotifier",
+"BusinessEventNotifierService",
+"BusinessEventNotifierServiceImpl",
+"ExternalBusinessEventConfigurationService",
+"ExternalEventPublisher",
+"ExternalEventService",
+"GlobalConfigurationProperty",
+"NoExternalEvent",
+"TransactionExecutionListener"
+],
+"enum": [
+"FINERACT_EXTERNAL_EVENTS_ENABLED"
+]
+},
+"CIG-005": {
+"fqcn": [],
+"path": [
+"DepositAccountTermAndPreClosure.java",
+"FixedDepositAccount.java",
+"SavingsAccount.java"
+],
+"module": [
+"fineract-core"
+],
+"table": [],
+"cls": [
+"DepositAccountTermAndPreClosure",
+"FixedDepositAccount",
+"LocalDate",
+"SavingsAccount",
+"SavingsAccountStatusType"
+],
+"enum": []
+},
+"CIG-006": {
+"fqcn": [
+"org.apache.fineract.batch.command"
+],
+"path": [
+"fineract-core/.../commands/provider/CommandHandlerProvider.java"
+],
+"module": [
+"fineract-core"
+],
+"table": [],
+"cls": [
+"CommandHandlerProvider",
+"CommandProcessingResult",
+"CommandProcessingService",
+"CommandStrategy",
+"CommandWrapper",
+"CommandWrapperBuilder",
+"JsonCommand",
+"NewCommandSourceHandler",
+"PortfolioCommandSourceWritePlatformService",
+"SynchronousCommandProcessingService"
+],
+"enum": []
+},
+"CIG-007": {
+"fqcn": [],
+"path": [
+"fineract-core/.../infrastructure/core/service/database/RoutingDataSource.java"
+],
+"module": [
+"fineract-core",
+"fineract-security"
+],
+"table": [],
+"cls": [
+"AbstractRoutingDataSource",
+"DataSource",
+"DataSourcePerTenantServiceFactory",
+"FineractPlatformTenant",
+"FineractPlatformTenantConnection",
+"FineractTenantIdentifyingFilter",
+"JdbcTenantDetailsService",
+"RoutingDataSource",
+"TenantAwareAuthenticationFilter",
+"TenantAwareBasicAuthenticationFilter",
+"TenantDetailsService",
+"TenantId",
+"ThreadLocalContextUtil"
+],
+"enum": []
+},
+"CIG-008": {
+"fqcn": [
+"org.apache.fineract.accounting."
+],
+"path": [
+"fineract-accounting/src/main/java/org/apache/fineract/accounting/journalentry/domain/JournalEntryRepository.java",
+"fineract-core/src/main/java/org/apache/fineract/accounting/common/AccountingConstants.java",
+"fineract-provider/src/main/java/org/apache/fineract/accounting/journalentry/service/AccountingProcessorHelper.java"
+],
+"module": [
+"fineract-accounting",
+"fineract-core",
+"fineract-provider"
+],
+"table": [],
+"cls": [
+"AccountingConstants",
+"AccountingProcessorHelper",
+"AccrualAccountsForLoan",
+"CashAccountsForLoan",
+"JournalEntry",
+"JournalEntryRepository",
+"LoanPortfolioAccountingParams",
+"LoanProductAccountingParams",
+"OrReversal"
+],
+"enum": [
+"FEE_INCOME",
+"INCOME_FROM_FEES"
+]
+},
+"CIG-009": {
+"fqcn": [],
+"path": [
+"ScheduledJobDetail.java",
+"application.properties",
+"db.changelog-master.xml",
+"fineract-core/.../infrastructure/jobs/service/JobName.java",
+"fineract-provider/src/main/java/org/apache/fineract/infrastructure/jobs/service/JobRegisterServiceImpl.java"
+],
+"module": [
+"fineract-core",
+"fineract-provider"
+],
+"table": [
+"m_job_detail",
+"scheduler_group"
+],
+"cls": [
+"DefaultSchedulerFactoryBean",
+"JobDetail",
+"JobName",
+"JobRegisterServiceImpl",
+"PostInterestForSavingConfig",
+"PostInterestForSavingTasklet",
+"ScheduledJobDetail",
+"SchedulerFactoryBean",
+"SchedulerJobApiResource",
+"SchedulerJobListener",
+"SchedulerTriggerListener",
+"UpdateLoanArrearsAgeingConfig",
+"UpdateLoanArrearsAgeingTasklet"
+],
+"enum": []
+},
+"CIG-010": {
+"fqcn": [],
+"path": [
+"fineract-core/.../event/business/service/BusinessEventNotifierServiceImpl.java"
+],
+"module": [
+"fineract-core"
+],
+"table": [],
+"cls": [
+"BusinessEventListener",
+"BusinessEventNotifier",
+"BusinessEventNotifierService",
+"BusinessEventNotifierServiceImpl",
+"InitializingBean",
+"RuntimeException",
+"TransactionExecutionListener",
+"TransactionalEventListener"
+],
+"enum": [
+"AFTER_COMMIT"
+]
+}
+}
